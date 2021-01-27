@@ -22,10 +22,21 @@ Mandatory
 
 1. swiftlint, A tool to enforce Swift style and conventions
    * `brew install swiftlint`
-2. Slather, Generate test coverage reports for Xcode
-   * `gem install slather`
-3. Fastlane, Automate building and releasing your iOS and Android apps
-   * `sudo gem install fastlane -NV`
+   
+2. Install fastlane and slather gem, two options:
+
+   A. Create Gemfile in your root project and run `bundle install`
+      ```ruby
+      source "https://rubygems.org"
+      gem "fastlane"
+      gem "slather"
+      ```
+      
+   B. Install directly from command line
+   
+      Slather, Generate test coverage reports for Xcode `gem install slather`
+      
+      Fastlane, Automate building and releasing your iOS and Android apps `sudo gem install fastlane -NV`
 
 ## Tools
 
